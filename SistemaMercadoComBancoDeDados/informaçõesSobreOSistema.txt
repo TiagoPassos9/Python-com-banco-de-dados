@@ -1,0 +1,43 @@
+Ao iniciar o sistema, ele irá te mostrar a tela inicial, a que pode realizar apenas vendas e calculos.
+
+Menu Principal
+
+Opção 1 - Mostra os produtos cadastrados nele anteriormente.
+Opção 2 - Realiza vendas dos produtos já cadastrados.
+Opção 3 - É onde gerencia todo o sistema, e pode ser acessado apenas com permissão.
+Opção 4 - Calcula o preço para o produto, utilizando a porcentagem de lucro solicitada.
+Opção 0 - Encerra o sistema.
+
+
+Menu gerenciar
+
+Opção 1 - Cadastra um produto, pedindo ao administrador um código, nome, fabricante, preço e quantidade do estoque.
+Opção 2 - Altera o preço de um produto.
+Opção 3 - Muda o nome de um produto, ou de uma fabricante nos produtos que ultiliza o mesmo.
+Opção 4 - Remove um produto do estoque.
+Opção 5 - Mostra uma lista dos produtos vendidos.                             -----Ainda não finalizado-----
+Opção 6 - Cadastrar clientes para vendas diretamente a clientes cadastrados.  -----Ainda não finalizado-----
+Opção 7 - Mostra os clientes cadastrados.                                     -----Ainda não finalizado-----
+Opção 8 - Gerenciar Administradores, onde você pode, adicionar, visualizar e remover um Usuário e senha do sistema 
+Opção 0 - Volta ao menu principal.
+
+        WARNINGS
+
+Usuário e senha padrões são:
+
+Usuário: 1234
+Senha: 1234
+
+Pode ser criado outro e deletado o padrão no menu de gerenciar.
+
+Passo a passo pra criar um novo administrador e apagar o administrador padrão:
+
+1 - Entrar no menu gerenciar.
+2 - Gerenciar administradores.
+3 - Cadastrar novo administrador.
+4 - Entrar no menu gerenciar administradores novamente.
+5 - Remover um administrador.
+
+Caso seja necessário reiniciar o banco de dados do sistema ou esteja dando erro com o mesmo, como: "sqlite3.OperationalError: no such table: users"
+Você precisa apenas apagar o arquivo database.db e rodar o createDatabase.py
+Ele criará um novo database.db limpo, e ao iniciar o sistema, ele te pedirá para criar Unuário e senha de administrador.
